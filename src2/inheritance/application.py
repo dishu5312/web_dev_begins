@@ -3,8 +3,8 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route("/")
-def index():
-    return render_template("index.html")
+def inde():
+    return render_template("inde.html")
 
 @app.route("/more")
 def more():
